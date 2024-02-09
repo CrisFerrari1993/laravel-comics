@@ -11,7 +11,8 @@
 <body>
     <div class="text-center">
         @include('components.header')
-        @yield('content')
+        @include('components.jumbotron')
+        @include('components.comics')
         @include('components.footer')
     </div>
 </body>
