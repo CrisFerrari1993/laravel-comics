@@ -4,13 +4,38 @@
 }
 // FONT RULES
 a{
+    letter-spacing: 0px;
     text-decoration: none;
     color: black;
 }
-
+// BTN RULES
+.my-btn{
+    background-color: #0282f9 ;
+    width: fit-content;
+    padding: 0.5rem 1.5rem;
+}
+.my-btn:hover{
+    background-color: rgb(43, 43, 43);
+    transition: 0.5s;
+    color: black;
+}
+.my-btn.footer{
+    background-color: #303030 ;
+    border: 2px solid #0282f9 ;
+    width: fit-content;
+    padding: 0.5rem 1.5rem;
+}
+.my-btn.footer:hover{
+    transition: 0.5s;
+    background-color: rgb(156, 156, 156);
+    h6{
+        color: black;
+    }
+}
 // HEADER RULES 
 header{
     nav{
+        height: 150px;
         padding: 1rem 0;
         display: flex;
         justify-content: space-around;
@@ -27,18 +52,124 @@ header{
             align-items: center;
             li{
                 a.link:hover{
-                    border-bottom: 3px solid #0c7cec;
-                    padding: 3rem 0;
+                    border-bottom: 5px solid #0c7cec;
+                    padding: 3.6rem 0;
                 }
                 a.link.selected{
-                    border-bottom: 3px solid #0c7cec;
-                    padding: 3rem 0;
+                    border-bottom: 5px solid #0c7cec;
+                    padding: 3.6rem 0;
                 }
             }
         }
         .nav_search{
             width: 10%;
         }
+        
     }
 }
 
+// JUMBOTRON RULES
+#jumbotron{
+    width: 100%;
+    height: 350px;
+    background-image: url(../../public/img/jumbotron.jpg);
+    background-position: top;
+}
+
+//COMICS RULES
+
+section#comics{
+    background-color: #1c1c1c ;
+    h1, h2, h3, h4, h5, h6{
+        color: white;
+    }
+    .label{
+        position: relative;
+        bottom: 3rem;
+    }
+    
+    .m-auto{
+        margin: 0 auto;
+    }
+    span{
+        color: white;
+        text-align: left;
+    }
+    .comic-img{
+        img{
+            width: 100%;
+        }
+    }
+    .comic-txt{
+        span{
+            display: block;
+            margin: 1rem 0;
+        }
+    }
+}
+section#cards{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    background-color: #0282f9;
+    img{
+        width: 80px;
+        height: 80px;
+    }
+    img.stretch{
+        width: 60px;
+    }
+    a{
+        color: white;
+    }
+}
+
+//FOOTER RULES
+footer{
+    background-image: url(../../public/img/footer-bg.jpg);
+    width: 100%;
+    h6{
+        color: white;
+    }
+    ul{
+       margin: 0;
+       padding: 0; 
+        h4{
+            margin: 1rem 0;
+            text-align: left;
+            color: white;
+        }
+        color: grey;
+        li{
+            list-style: none;
+            text-align: left;
+            a{
+                color: grey;
+            }
+        }
+    }
+    .dc-img {
+        width: 50%;
+        background-image: url('../../public/img/dc-logo-bg.png');
+        background-size: cover;
+        background-position: center;
+    }
+    p{
+        text-align: left;
+        color: grey;
+        a{
+            color: blue;
+        }
+    }
+    .footer-icon{
+        width: 100%;
+        padding: 2rem 0;
+        background-color: #303030;
+        h4{
+            color: #0282f9;
+        }
+        a{
+            margin: 0 0.5rem;
+        }
+    }
+}
