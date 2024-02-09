@@ -5,5 +5,6 @@
     <title>Home</title>
 @endsection
 @section('content')
-    <h1>ma siamo sicuri??</h1>
+    
+
 @endsection
