@@ -1,5 +1,5 @@
 <header>
-    <div class="container">
+    <div class="container mb-0 pb-0">
         <nav>
             <div class="nav-img">
                 <a href="#">
