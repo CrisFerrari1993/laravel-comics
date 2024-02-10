@@ -18,9 +18,9 @@
                             <div class="dropdown">
                                 <i class="fa-solid fa-angel-down dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"></i>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                  <li><a class="dropdown-item" href="#">Action</a></li>
-                                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                  <li><a class="dropdown-item" href="#">Buy Comics</a></li>
+                                  <li><a class="dropdown-item" href="#">DC Universe</a></li>
+                                  <li><a class="dropdown-item" href="#">DC Power Visa</a></li>
                                 </ul>
                           </div>
                         @endif
