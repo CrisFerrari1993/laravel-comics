@@ -74,6 +74,8 @@ header{
     height: 350px;
     background-image: url(../../public/img/jumbotron.jpg);
     background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 //COMICS RULES
@@ -145,7 +147,12 @@ footer{
             text-align: left;
             a{
                 color: grey;
+                &:hover{
+                    color: white;
+                    text-decoration: underline;
+                }
             }
+
         }
     }
     .dc-img {
@@ -170,6 +177,68 @@ footer{
         }
         a{
             margin: 0 0.5rem;
+        }
+    }
+}
+
+//INFO COMICS RULES
+section.blue{
+    background-color: #0c7cec;
+    z-index: 0;
+    height: 100px;
+    .thumb{
+        bottom: 10rem;
+        position: relative;
+        border: 1px solid white;
+        width: fit-content;
+        .type{
+            position: absolute;
+            z-index: 3;
+            left: 0;
+            background-color: #00a9d9;
+            padding: 0 5px;
+            color: white;
+        }
+        .gallery{
+            font-size: 12px;
+            text-align: center;
+            display: block;
+            background-color:#00a9d9 ;
+            a{
+                color: white;
+            }
+        }
+        img{
+            z-index: 0;
+            width: 150px;
+            height: 225px;
+        }
+    }
+}
+section#info{
+    .price{
+        color: greenyellow;
+        font-weight: bolder;
+    }
+    .total{
+        color: white;
+        font-weight: bolder;
+    }
+    .adv{
+        text-align: end;
+    }
+}
+#comic-info{
+    a{
+        color: #0282f9;
+    }
+    img{
+        width: 20px;
+        height: 30px;
+    }
+    .cards{
+        a{
+            color: grey;
         }
     }
 }
